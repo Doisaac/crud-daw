@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  <!-- BOOTSTRAP -->
+  <link th:href="@{/webjars/bootstrap/5.3.3/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h1>Lista de Usuarios</h1>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header">
+        Usuarios
+      </div>
+      <div class="card-body">
+        <table class="table table-bordered table-striped">
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+          </tr>
+          <tr th:each="usr: ${users}">
+            <td th:text="${usr.id}"></td>
+            <td th:text="${usr.name}"></td>
+            
+            <td>
+              <a class="btn btn-info" th:href="@{'/editar/' + ${usr.id}}">Editar</a>
+              <a class="btn btn-danger" th:href="@{'/eliminar/' + ${usr.id}}"
+              onclick="return confirm('Seguro que deseas eliminar este registro?')"
+              >
+              Eliminar</a>
+            </td>
+            
+          </tr>
+        </table>
+        <a class="btn btn-dark" href="/nuevo">Agregar Usuario</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
