@@ -25,7 +25,7 @@ Sigue estos pasos para ejecutar el CRUD utilizando Docker Compose:
      ```bash
      docker-compose ps
      ```
-   - Verifica que ambos contenedores estén en verde y en estado "Up".
+   - Verifica que ambos contenedores estén en verde y en estado "Up" en Docker Desktop.
 
 4. **Acceder a la Aplicación:**
    - Abre tu navegador web.
