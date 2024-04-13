@@ -1,5 +1,10 @@
 # Instrucciones para ejecutar el CRUD con Docker Compose
 
+##### Douglas Isaac Barrera Magaña - BM22025
+##### Ricardo Enrique Heredia Ramos - HR21024
+##### Alejandro Daniel Avalos Santamaria - AS19014
+-------------------------------------------------------------------
+
 Sigue estos pasos para ejecutar el CRUD utilizando Docker Compose:
 
 1. **Borrar Imágenes y Contenedores Anteriores:**
