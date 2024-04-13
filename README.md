@@ -15,11 +15,15 @@ Sigue estos pasos para ejecutar el CRUD utilizando Docker Compose:
      ```
     (Cabe aclarar que si hay imagenes importantes existentes tambien se veran afectadas, para evitar inconvenientes tambien puedes usar Dokcer Desktop y borra directamente la imagen)
 
-2. **Iniciar Docker Compose:**
+2. **Iniciar La Aplicacion con Docker:**
    - En tu terminal, ejecuta el siguiente comando para iniciar Docker Compose en segundo plano:
      ```bash
      docker-compose up -d
-     ```
+     ``` 
+
+3. **Iniciar La Aplicacion Localmente:**
+   - Desde Docker Desktop inicia el contenedor "java_db"
+   - Utilizando el Spring Boot Dashboard, selecciona la aplicacion y corre el proyecto
 
 3. **Verificar Estado de los Contenedores:**
    - Ejecuta el siguiente comando para verificar que ambos contenedores estén en ejecución y funcionando correctamente:
