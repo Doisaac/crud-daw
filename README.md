@@ -8,11 +8,12 @@
 Sigue estos pasos para ejecutar el CRUD utilizando Docker Compose:
 
 1. **Borrar Imágenes y Contenedores Anteriores:**
-   - Abre tu terminal.
+   - Abre Docker Desktop.
    - Ejecuta el siguiente comando para limpiar la caché eliminando cualquier imagen y contenedor relacionado con el CRUD:
      ```bash
      docker-compose down --rmi all -v
      ```
+    (Cabe aclarar que si hay imagenes importantes existentes tambien se veran afectadas, para evitar inconvenientes tambien puedes usar Dokcer Desktop y borra directamente la imagen)
 
 2. **Iniciar Docker Compose:**
    - En tu terminal, ejecuta el siguiente comando para iniciar Docker Compose en segundo plano:
