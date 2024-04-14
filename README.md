@@ -13,7 +13,7 @@ Sigue estos pasos para ejecutar el CRUD utilizando Docker Compose:
      ```bash
      docker-compose down --rmi all -v
      ```
-    (Cabe aclarar que si hay imagenes importantes existentes tambien se veran afectadas, para evitar inconvenientes tambien puedes usar Dokcer Desktop y borra directamente la imagen)
+    (Cabe aclarar que si hay imagenes importantes existentes tambien se veran afectadas, para evitar inconvenientes tambien puedes usar Docker Desktop y borrar directamente la imagen)
 
 2. **Iniciar La Aplicacion con Docker:**
    - En tu terminal, ejecuta el siguiente comando para iniciar Docker Compose en segundo plano:
